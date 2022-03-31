@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wordpress {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 150px;
+}
+.colorlib {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-attachment: fixed;
+}
+.colorlibimg {
+  padding-left: 70px;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+}
+.colorliblist {
+  display: flex;
+  position: absolute;
+  margin-left: 450px;
+}
+ul li {
+  list-style: none;
+  padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+a:hover {
+  color: blue;
+  border-bottom: solid blue 2px;
+}
+
+.template {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.068);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid rgba(128, 128, 128, 0.199) 1px;
+  border-bottom: solid rgba(128, 128, 128, 0.199) 1px;
+}
+b {
+  padding-left: 70px;
+  font-size: 30px;
+  font-weight: 500;
+}
+i {
+  font-size: 15px;
+}
+.raquo {
+  padding-left: 500px;
+}
+h2 {
+  padding-left: 70px;
+}
+
+li {
+  font-style: oblique;
+  font-family: monospace;
+}
+.march {
+  padding-left: 90px;
+  display: flex;
+  font-size: 15px;
+  color: rgba(128, 128, 128, 0.877);
+}
+
+.audio {
+  margin-left: 13%;
+  border-color: solid 2px aqua;
+}
+.mainimg {
+  position: absolute;
+  width: 1000px;
+  margin-top: 7%;
+  margin-left: 13%;
+  border-radius: 10px;
+}
+.details {
+  margin-left: 70px;
+  padding-left: 0;
+  border-bottom: solid blue 2px;
+}
+.table1 {
+  margin-top: 600px;
+  font-size: medium;
+}
+.author {
+  position: absolute;
+  padding-left: 70px;
+  color: gray;
+  padding-top: 10px;
+}
+.description {
+  border-bottom: solid blue 2px;
+  padding-left: 0;
+  margin-left: 300px;
+}
+.lacking {
+  padding-left: 325px;
+  color: gray;
+}
+.scratch {
+  padding-left: 325px;
+  color: gray;
+}
+.preview {
+  background-color: violet;
+  margin-top: 250px;
+  margin-left: 80px;
+  margin-right: 197vh;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.preview:hover {
+  background-color: rgb(161, 12, 161);
+  transition: 0.9s;
+}
+.pricing {
+  position: relative;
+  border-bottom: blue solid 2px;
+  margin-left: 70px;
+  padding-left: 0;
+  margin-right: 180vh;
+}
+section {
+  display: grid;
+  margin-right: 90px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-column-gap: 0.5%;
+}
+.prem {
+  border: solid black 1px;
+  text-align: center;
+  padding-top: 20px;
+}
+#prem {
+  margin-top: 225px;
+}
+
+.sing {
+  /* border: solid black 1px; */
+  text-align: center;
+  padding-top: 20px;
+  height: 550px;
+  width: auto;
+  box-shadow: 1px 1px 4px 1px black;
+}
+.member {
+  /* border: solid black 1px; */
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 4px 1px black;
+}
+.life {
+  /* border: solid rgba(0, 0, 0, 0.438) 1px; */
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 4px 1px black;
+}
+.buynow1 {
+  position: absolute;
+  background-color: aquamarine;
+  margin-top: 130px;
+  padding: 15px 35px;
+  border-radius: 5px;
+  left: 450px;
+}
+.buynow1:hover {
+  background-color: aqua;
+  border: solid 5px aqua;
+}
+
+.buynow2 {
+  position: absolute;
+  background-color: aquamarine;
+  margin-top: 130px;
+  padding: 15px 35px;
+  border-radius: 5px;
+  left: 735px;
+}
+.buynow2:hover {
+  background-color: aqua;
+  border: solid 5px aqua;
+}
+
+.buynow3 {
+  position: absolute;
+  background-color: aquamarine;
+  margin-top: 130px;
+  padding: 15px 35px;
+  border-radius: 5px;
+  left: 1020px;
+}
+.buynow3:hover {
+  background-color: aqua;
+  border: solid 5px aqua;
+}
+
+.single {
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: grey solid 1px;
+}
+.membership {
+  padding-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-bottom: grey solid 1px;
+}
+.lifetime {
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: grey solid 1px;
+}
+.dixbal {
+  /* position:absolute; */
+  padding-top: 40px;
+  font-weight: lighter;
+  font-size: 50px;
+}
+.centbal {
+  padding-top: 40px;
+  font-weight: lighter;
+  font-size: 50px;
+}
+.troiscentbal {
+  padding-top: 40px;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+.kuzma {
+  position: absolute;
+  height: 500px;
+  width: 300px;
+  margin-top: 50%;
+}
